@@ -1,4 +1,3 @@
-````markdown
 # Movie Search Application (Backend)
 
 This is the backend for the Movie Search Application, built using **Node.js** and **ExpressJS**. It serves as the API layer that communicates with a **Python** service for performing movie searches using AI models such as Sentence Transformers.
@@ -23,4 +22,3 @@ This is the backend for the Movie Search Application, built using **Node.js** an
    ```bash
    git clone https://github.com/OldAlexhub/moviesnjs.git
    ```
-````
