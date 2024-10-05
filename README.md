@@ -1,7 +1,3 @@
----
-
-### **2. `README.md` for the Node.js Backend**
-
 ````markdown
 # Movie Search Application (Backend)
 
