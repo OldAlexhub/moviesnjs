@@ -1,4 +1,7 @@
 import axios from "axios";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const searchMovies = async (req, res) => {
   try {
@@ -6,7 +9,7 @@ const searchMovies = async (req, res) => {
     const search = userQuery;
 
     // Making the request to the Python API
-    const response = await axios.post(`http://127.0.0.1:5000/search`, {
+    const response = await axios.post(`${process.env.PYTHON_CODE}/search`, {
       search,
     });
 
